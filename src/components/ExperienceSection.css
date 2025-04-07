@@ -1,0 +1,40 @@
+/* src/components/ExperienceSection.css */
+.experience-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: calc(100vh - 80px); /* Adjust this if you have a fixed footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 180px;
+  }
+  
+  .experience-section h1,
+  .experience-section h2 {
+    color: #333;
+  }
+  
+  .experience-section ul {
+    list-style: none;  /* Remove bullet points */
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .experience-section li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left; 
+    margin-left: 150px;
+
+  }
+
+  ul li::before {
+    content: '•'; /* Unicode character for bullet point */
+    color: #333; /* Customize the color of the bullet */
+    font-size: 24px; /* Customize the size of the bullet */
+    margin-right: 10px; /* Space between bullet and text */
+    vertical-align: middle; /* Align the bullet with the middle of the text */
+  }
+
+  

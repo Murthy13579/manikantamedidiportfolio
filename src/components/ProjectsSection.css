@@ -1,0 +1,25 @@
+src/components/ProjectsSection.css
+.projects-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .projects-section h1,
+  .projects-section h2 {
+    color: #333;
+  }
+  
+  .projects-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .projects-section li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left; 
+    margin-left: 150px;
+  }
+  

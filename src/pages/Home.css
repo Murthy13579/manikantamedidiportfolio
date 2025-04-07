@@ -1,0 +1,26 @@
+/* src/pages/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: calc(100vh - 80px); /* Adjust this if you have a fixed footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home-container h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
