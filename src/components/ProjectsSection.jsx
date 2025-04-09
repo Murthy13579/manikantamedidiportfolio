@@ -8,10 +8,10 @@ const ProjectsSection = () => {
       <div className="project-list">
         {/* Project 1 */}
         <div className="project-item">
-          <h2>Project 1</h2>
-          <p>Description of Project 1...</p>
+          <h2>Java Spring Project</h2>
+          <p>It is an Job application board project</p>
           <a
-            href="https://github.com/yourgithubusername/project1"
+            href="https://github.com/Murthy13579/SpringProjectManikanta"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,23 +21,10 @@ const ProjectsSection = () => {
 
         {/* Project 2 */}
         <div className="project-item">
-          <h2>Project 2</h2>
-          <p>Description of Project 2...</p>
+          <h2>React JS Project</h2>
+          <p>It is my own website that I have created to showcase my portfolio</p>
           <a
-            href="https://github.com/yourgithubusername/project2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="github-button">View Project on GitHub</button>
-          </a>
-        </div>
-
-        {/* Project 3 */}
-        <div className="project-item">
-          <h2>Project 3</h2>
-          <p>Description of Project 3...</p>
-          <a
-            href="https://github.com/yourgithubusername/project3"
+            href="https://github.com/Murthy13579/manikantamedidiportfolio"
             target="_blank"
             rel="noopener noreferrer"
           >
