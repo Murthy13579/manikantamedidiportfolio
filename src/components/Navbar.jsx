@@ -1,30 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";  // Import the CSS file for styling
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <ul className="navbar-menu">
-        <li className="navbar-item">
-          <Link to="/home" className="navbar-link">Home</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/about" className="navbar-link">About</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/experience" className="navbar-link">Experience</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/projects" className="navbar-link">Projects</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/education" className="navbar-link">Education</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/contact" className="navbar-link">Contact</Link>
-        </li>
-      </ul>
+    <nav className="bg-white shadow-md fixed w-full top-0 z-50">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          <div className="text-xl font-bold text-gray-800">My Portfolio</div>
+          <ul className="flex space-x-6 text-sm font-medium text-gray-700">
+            <li><Link to="/home" className="hover:text-blue-500 transition">Home</Link></li>
+            <li><Link to="/about" className="hover:text-blue-500 transition">About</Link></li>
+            <li><Link to="/experience" className="hover:text-blue-500 transition">Experience</Link></li>
+            <li><Link to="/projects" className="hover:text-blue-500 transition">Projects</Link></li>
+            <li><Link to="/education" className="hover:text-blue-500 transition">Education</Link></li>
+            <li><Link to="/contact" className="hover:text-blue-500 transition">Contact</Link></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 };
