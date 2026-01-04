@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import profileImage from '../assets/profile.jpg';
-import { FaUserCog, FaLightbulb, FaCloud, FaRobot, FaFlask, FaDatabase } from 'react-icons/fa';
+import { FaUserCog, FaLightbulb, FaCloud, FaRobot, FaFlask, FaDatabase, FaCertificate } from 'react-icons/fa';
 import { BsSearch } from 'react-icons/bs';
 
 const AboutSection = () => {
@@ -137,6 +137,50 @@ const AboutSection = () => {
                 <motion.p variants={itemVariants}>
                   Recently, I've been integrating Generative AI and LLMs (LangChain4j, OpenAI APIs) into Java microservices to automate analytics, enhance recommendations, and bring intelligence to enterprise systems.
                 </motion.p>
+              </div>
+            </motion.div>
+
+            {/* ✅ Certifications (Added Only) */}
+            <motion.div variants={itemVariants} className="mt-8">
+              <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <FaCertificate className="text-2xl text-blue-600" />
+                  <h3 className="text-2xl font-bold text-gray-900">Certifications</h3>
+                  <span className="ml-auto text-xs px-3 py-1 rounded-full bg-green-50 text-green-700 border border-green-200">
+                    Active
+                  </span>
+                </div>
+
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <div>
+                    <div className="text-lg font-semibold text-gray-900">
+                      AWS Certified Solutions Architect – Associate (SAA)
+                    </div>
+                    <div className="text-sm text-gray-600 mt-1">
+                      Issued: 2026-01-03 • Expires: 2029-01-03
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://www.credly.com/badges/c575addf-9551-4332-95d5-58d655f09484"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
+                  >
+                    Verify Credential ↗
+                  </a>
+                </div>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {["AWS", "Cloud Architecture", "VPC", "IAM", "EC2", "S3", "RDS", "Well-Architected"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full border border-blue-100"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </motion.div>
           </motion.div>
