@@ -93,7 +93,7 @@ const AboutSection = () => {
         {/* Tagline */}
         <motion.div variants={itemVariants} className="text-center mb-16">
           <p className="text-blue-600 font-medium text-lg">
-            4+ Years | Java Full Stack Developer | Spring Boot • React/Angular • GenAI Integration | Cloud & Microservices
+            5+ Years | Java Full Stack Developer | Spring Boot • React/Angular • GenAI Integration | Cloud & Microservices
           </p>
         </motion.div>
 
@@ -129,7 +129,7 @@ const AboutSection = () => {
             >
               <div className="space-y-6 text-lg text-gray-600">
                 <motion.p variants={itemVariants}>
-                  I'm a Java Full Stack Engineer with 4+ years of experience designing, developing, and scaling enterprise-grade software solutions. My expertise spans Spring Boot 3 microservices, React & Angular frontends, and cloud-native architectures deployed on AWS and Azure.
+                  I'm a Java Full Stack Engineer with 5+ years of experience designing, developing, and scaling enterprise-grade software solutions. My expertise spans Spring Boot 3 microservices, React & Angular frontends, and cloud-native architectures deployed on AWS and Azure.
                 </motion.p>
                 <motion.p variants={itemVariants}>
                   I specialize in building high-performance backend systems using Java 17, Kafka, and REST/gRPC that power real-time, event-driven platforms handling 1M+ transactions daily. On the frontend, I craft responsive, data-driven dashboards that transform complex data pipelines into actionable insights.
